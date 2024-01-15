@@ -1,0 +1,13 @@
+ <ul>
+    @for( ar of arrr ; track $index)
+    {
+        <div>
+        <div [ngStyle]="{'text-decoration' : ar.style ? 'line-through':'none'}">
+            {{ar.text}}
+        </div>
+        <button (click)="remove($index)">delete</button>
+        <button (click)="mark($index)">complete</button>
+        </div>
+    }
+ </ul>
+ 

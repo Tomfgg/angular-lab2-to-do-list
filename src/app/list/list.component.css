@@ -1,0 +1,14 @@
+ul>div{
+    display: flex;
+    justify-content: center;
+}
+ul >div> *{
+    margin: 5px;
+}
+ul{
+    background-color: yellowgreen;
+}
+ul>div>div{
+    width: 100px;
+}
+
